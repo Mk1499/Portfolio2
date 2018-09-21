@@ -1,0 +1,48 @@
+
+<section class="projects">
+    <div class="shadow">
+
+        <h1>My Projects</h1>
+        <hr> 
+        <app-spinner *ngIf="loadspinner"></app-spinner>
+        <div class="container">
+            
+          <div class="row wow fadeInRight" data-wow-duration="2s">
+             
+              <div class="col-md-4 pro" *ngFor="let item of itemArray">
+                 <div class="card">
+                      <img class="card-img-top" src="{{item.imgUrl}}" width="300" height="200">
+                      <div class="card-body">
+                        <h5 class="card-title">{{item.name}}</h5>
+                        <p class="card-text">{{item.description}}</p>
+                      </div>                    
+                  <div class="overlay">
+                      <h4 class="title">Technologies</h4>
+                       
+                      <hr>
+
+                      <ul>
+                        <li>{{item.tech1}}</li>
+                        <li>{{item.tech2}}</li>
+                        <li>{{item.tech3}}</li>
+                      </ul>
+
+                      <div class="foot">
+                        <hr>
+                        <div class="btns">
+                            <a href="{{item.url}}" target="_blank"><button class="btn btn-primary action" ><i class="fa fa-external-link fa-2x" aria-hidden="true"></i></button></a>
+
+                            <a href="{{item.gitUrl}}" target="_blank"><button class="btn btn-primary action" ><i class="fa fa-github fa-2x" aria-hidden="true"></i></button></a>
+                          </div>
+                      </div>
+
+                        </div>
+                  </div>
+                </div>
+             </div>
+              </div>
+            </div>
+    </section>
+    
+    
+    

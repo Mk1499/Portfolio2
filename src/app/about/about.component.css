@@ -1,0 +1,40 @@
+.about{
+    background: url("../../assets/images/background.jpg") fixed no-repeat ;
+    color: cornsilk;  
+    background-size: cover
+}
+.shadow{
+    padding: 15vh;
+    height: 100%;
+    background :rgba(3,3,3,0.5); 
+}
+h3{
+    font-family: 'Courgette', cursive;
+}
+hr{
+    background-color: cornsilk;
+}
+.profile img{
+    width: 100% ; 
+    border-radius: 20px ; 
+    border:teal solid 4px ;
+    margin-bottom: 10px ;
+    max-height: 75vh 
+}
+ul{
+    list-style-type: none ; 
+    padding-left : 0 ;
+}
+ul li{
+    float: left;
+    padding: 5px
+}
+button{
+    background-color: transparent ; 
+    margin : 20px ; 
+    border:2px solid teal ;  
+}
+button:hover , button:active , button:focus , button:visited{
+    background-color: teal !important;
+    border:2px solid cornsilk !important;
+}

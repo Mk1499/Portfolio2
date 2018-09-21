@@ -1,0 +1,15 @@
+nav{
+    background: teal ; 
+    width: 100% ; 
+    
+}
+.navbar-light .navbar-nav .nav-link , .navbar-light .navbar-brand {
+    color:cornsilk
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: none ; 
+    color : #fff ; 
+    font-size: 27px;
+
+}

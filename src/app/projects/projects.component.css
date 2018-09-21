@@ -1,0 +1,63 @@
+.projects{
+    background: url("../../assets/images/background.jpg") no-repeat fixed;
+    color: cornsilk;  
+    background-size: cover
+}
+.shadow{
+    padding: 15vh;
+    height: 100%;
+    background :rgba(3,3,3,0.5); 
+}
+
+hr{
+    background-color: cornsilk;
+}
+
+ul{
+    height: 50%; 
+    
+}
+
+.card {
+    margin: 5px ; 
+    height: 336px;
+    overflow: hidden;
+}
+.card-body{
+    color: teal ; 
+    max-height: 100px;
+}
+
+
+
+.overlay{
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  right: 0;
+  background:#fff;
+  overflow: hidden;
+  width: 100%;
+  height: 0%;
+  transition: .5s ease;
+  color: grey ; 
+}
+
+.overlay .title {
+    margin: 10px
+}
+.btns button {
+    margin-left: 2% ; 
+    background: transparent ; 
+    color: teal ; 
+    border-color: teal ;
+}
+.btns button:hover{
+    background: teal ; 
+    color: #fff ; 
+    border-color: #fff ;
+}
+.pro:hover .overlay{
+    height: 100%;
+}
+

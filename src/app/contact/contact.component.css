@@ -1,0 +1,19 @@
+.contact{
+    background-image: url("../../assets/images/background.jpg");
+    color: cornsilk;  
+    background-size: cover
+}
+.shadow{
+    padding: 15vh;
+    height: 100%;
+    background :rgba(3,3,3,0.5); 
+}
+button{
+    background-color: transparent ; 
+    margin : 20px ; 
+    border:2px solid teal ;  
+}
+button:hover , button:active , button:focus , button:visited{
+    background-color: teal !important;
+    border:2px solid cornsilk !important;
+}
